@@ -1,0 +1,228 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans+Sogdian&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body{
+	font-family: 'Noto Sans Sogdian', sans-serif;
+	margin:  0;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+header{
+	background-color: #efefefff;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	clear: both;
+	background: rgb(23,23,22);
+	background: linear-gradient(90deg, rgba(23,23,22,1) 8%, rgba(193,130,20,1) 25%, rgba(200,140,27,1) 80%, rgba(0,0,0,1) 100%);
+}
+footer ul{
+  list-style-type: none;
+}
+footer li{
+  display: inline;
+}
+footer a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+footer a:link{
+  color: #efefefff;
+  font-family: Agbalumo;
+}
+footer a:visited{
+  color: white;
+}
+footer a:hover{
+  color: black;
+}
+footer a:active{
+  color: grey;
+}
+footer p{
+	color: #efefefff;
+}
+#home-photo{
+	background-image: url(images/wood.jpg);
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+#home-photo h1{
+	font-family: Agbalumo;
+	color: #c18214;
+	text-align: center;
+	text-shadow: 2px 2px 2px #efefefff;
+	margin: 0;
+	background-color: rgba(0,0,0,.5);
+} 
+.ur{
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.home-photo{
+	border-radius: 50%;
+	width: 100%;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+h1{
+	color: blue;
+	text-shadow: 2px 2px 2px black;
+	font-family: Georgia, serif;
+}
+h2{
+	color: white;
+	font-family: Georgia, serif;
+	background: rgb(23,23,22);
+	background: linear-gradient(90deg, rgba(23,23,22,1) 8%, rgba(193,130,20,1) 25%, rgba(200,140,27,1) 80%, rgba(0,0,0,1) 100%);
+	text-align: left;
+}
+p, li{
+	font-family: Georgia, serif;
+}
+h4{
+	color: #efefefff;
+}
+h5{
+
+}
+table{
+  border-collapse: collapse;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+th{
+	background-color: #93278E;
+	padding: 10px;
+	border-bottom: 5px solid black;
+}
+tr:nth-child(even) {
+	background-color: #eeeeee;
+}
+td{
+  border: 1px solid black;
+  padding: 50px;
+}
+td{
+  font-family: Agbalumo;
+	color: #c18214;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid purple;
+  margin: 0 auto;
+}
+th{
+  color: #efefefff;
+  font-family: Agbalumo;
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+  font-family: Agbalumo;
+	color: #c18214
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+  background-color: lightslategray;
+  padding: 9px;
+  color: #efefefff;
+  border-radius: 75px;
+  display: block;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+nav{
+background: rgb(23,23,22);
+background: linear-gradient(90deg, rgba(23,23,22,1) 8%, rgba(193,130,20,1) 25%, rgba(200,140,27,1) 80%, rgba(0,0,0,1) 100%);
+	padding: 5px;
+	text-align: center;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: black;
+}
+nav a:active{
+  color: grey;
+}
+canvas{
+	background-image: url(images/alberta-2297204_1280.jpg);
+	font-family: Georgia, serif;
+	margin: 0 auto;
+	disply: block;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		text-align: center;
+		font-size: 3em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
